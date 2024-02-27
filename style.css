@@ -177,3 +177,13 @@ nav{
     gap: 10px;
     margin-top: 10px;
 }
+.products-slider-with-price .products::-webkit-scrollbar{
+    display: none;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    background: #fbfbfb;
+}
