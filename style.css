@@ -187,3 +187,7 @@ nav{
     min-width: 210px;
     background: #fbfbfb;
 }
+.product-card img{
+    width: 110px;
+    margin: 0 50px;
+}
