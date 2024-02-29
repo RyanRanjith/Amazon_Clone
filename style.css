@@ -191,3 +191,17 @@ nav{
     width: 110px;
     margin: 0 50px;
 }
+.product-offer p{
+    background: #be0b3b;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin: 8px 0;
+    font-size: 13px;
+}
+.product-offer span{
+    color: #be0b3b;
+    font-weight: 500;
+    font-size: 12px;
+}
