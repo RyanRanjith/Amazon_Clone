@@ -222,3 +222,42 @@ footer{
     background: #131921;
     padding: 20px 60px;
 }
+
+@media (max-width: 480px) {
+    /* Additional adjustments for smaller devices */
+    nav .nav-search {
+        margin: 5px 0;
+    }
+    .nav-search-gategory, .nav-search-icon {
+        padding: 5px 10px;
+    }
+    .nav-bottom, .nav-cart {
+        padding: 4px 10px;
+    }
+    .nav-bottom div, .nav-cart div {
+        gap: 2px;
+    }
+    .product-card img {
+        width: 80px;
+        margin: 0 auto; /* Center the image */
+    }
+    .box-col, .product-card {
+        padding: 10px;
+    }
+    .nav-country p {
+        position: relative;
+        left: -25px;
+    }
+    .nav-country h1 {
+        position: relative;
+        left: -4px;
+    }
+    .nav-country img {
+        position: relative;
+        left: -11px;
+    }
+    .nav-text, .nav-cart{
+        display: none;
+    }
+    
+}
