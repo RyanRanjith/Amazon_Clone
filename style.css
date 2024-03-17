@@ -259,5 +259,9 @@ footer{
     .nav-text, .nav-cart{
         display: none;
     }
+     .box-col h3{
+        font-size: 12px;
+    
+    }
     
 }
